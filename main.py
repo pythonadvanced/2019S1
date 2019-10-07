@@ -36,3 +36,5 @@ while True:
   screen.fill(BLACK)
   draw_cell((2, 2), WHITE)
   pygame.display.update()
+
+#Je rajoute une note
