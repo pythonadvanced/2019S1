@@ -17,6 +17,8 @@ def draw_cell(board_pos, color=WHITE):
     for screen_pos in screen_positions(board_pos):
             screen.set_at(screen_pos, color)
 
+            
+            
 def screen_positions(board_pos):
     x, y = board_pos
     cell_width, cell_height = CELL_SIZE
@@ -25,6 +27,8 @@ def screen_positions(board_pos):
       for line, col
       in product(range(cell_height),range(cell_width))
     )
+
+
 
 while True:
   for event in pygame.event.get():
