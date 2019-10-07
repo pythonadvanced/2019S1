@@ -3,6 +3,8 @@ import pygame
 from pygame.locals import *
 from itertools import product
 
+
+
 # on doit "initialiser" PyGame
 pygame.init()
 
