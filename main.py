@@ -7,7 +7,7 @@ from itertools import product
 pygame.init()
 
 # et définir la taille de la fenêtre (400x400)
-screen = pygame.display.set_mode((400, 400))
+screen = pygame.display.set_mode((400, 400))  
 
 CELL_SIZE = (20, 20)
 BLACK = (0, 0, 0)
